@@ -1,14 +1,12 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {Provider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
 import {persistor, store} from './src/redux/store';
 import ProfileScreen from './src/screens/ProfileScreen';
-import HomeTabNavigator from "./src/screens/HomeTabNavigator";
+import HomeTabNavigator from "./src/navigation/HomeTabNavigator";
 import KafedraScreen from "./src/screens/KafedraScreen";
-import HomeScreen from "./src/screens/HomeScreen";
 
 const Drawer = createDrawerNavigator();
 

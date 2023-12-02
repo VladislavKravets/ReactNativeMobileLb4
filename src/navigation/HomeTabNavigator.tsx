@@ -1,7 +1,7 @@
 import React from 'react';
-import HomeScreen from "./HomeScreen";
+import HomeScreen from "../screens/HomeScreen";
 import {Ionicons} from "@expo/vector-icons";
-import NewsScreen from "./NewsScreen";
+import NewsScreen from "../screens/NewsScreen";
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
 
 const Tab = createBottomTabNavigator();
